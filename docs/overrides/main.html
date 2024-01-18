@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.op.min.css' | url }}">
+{% endblock %}
+
+<!-- Announcement bar -->
+{% block announce %}
+  For lastest updates, please visit our website <a href="https://openterface.com">LED-Bugs</a>.
+  You can also visit <a href="https://techxartisan.com">TechxArtisan Studio</a> and follow us on
+  <a href="https://twitter.com/TechxArtisan">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/x-twitter.svg" %}
+    </span>
+  </a>
+{% endblock %}
+
+<!-- Theme-related JavaScript -->
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.op.min.js' | url }}"></script>
+{% endblock %}
