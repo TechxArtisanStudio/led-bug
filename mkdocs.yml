@@ -1,9 +1,23 @@
-site_name: LED-Bug Docs
+# Project information
+site_name: LED-Bug | 创意灯光控制
+site_url: https://led-bugs.com/
+site_author: Billy Wang
 site_description: LED-Bug control your LED lights
+
+# Copyright
+copyright: >-
+  Copyright &copy; All rights reserved. 2023 <a href="https://led-bugs.com/">LED-Bug</a>, Guangzhou Billio Tech. Co., Ltd. <br>
+  <a href="">Home</a> |
+  <a href="#__consent">Cookie Settings</a> | 
+  <a href="/contact">Contact Us</a>
+
 theme:
   name: material
   custom_dir: docs/overrides
-  language: en
+  language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
   logo: assets/logo.png
   favicon: images/favicon.png
   features:
@@ -11,6 +25,8 @@ theme:
    - navigation.sections
    - navigation.top
    - navigation.footer
+   - navigation.indexes
+   - navigation.sidebar
    - toc.integrate
    - search.suggest
    - search.highlight
@@ -19,38 +35,30 @@ theme:
    - content.code.copy
   palette:
     primary: custom
-nav:
-  - Home: index.md
-  - About: about.md
-  - Contact: contact.md
-  - Docs:
-    - Getting Started: getting-started.md
-    - Installation: installation.md
-    - Usage: usage.md
-    - Troubleshooting: troubleshooting.md
-    - FAQ: faq.md
-    - Changelog: changelog.md
-    - License: license.md
-
+    accent: custom
 
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/youyoubilly
+      link: https://github.com/TechxArtisan
     - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin-in
-      link: https://www.linkedin.com/
+      link: https://twitter.com/TechxArtisan
+    - icon: fontawesome/brands/facebook-f
+      link: https://www.facebook.com/TechxArtisan
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/skfExqDD
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/
+      link: https://youtube.com/@TechxArtisan
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/company/techxartisan/
   alternate:
-    - name: English
+    # - name: English
+    #   link: /
+    #   lang: en
+    - name: 中文
       link: /
-      lang: en
-    # - name: 中文
-    #   link: /zh/
-    #   lang: zh
+      lang: zh
   consent:
     description: >- 
       <br><strong>Cookie Consent</strong><br>
@@ -63,16 +71,19 @@ extra:
     #     name: Google Analytics
     #     checked: false
 
-copyright: Copyright &copy; 2023 LED-Bug
-
 markdown_extensions:
   # Enables admonitions
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -80,3 +91,13 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+
+nav:
+  - 主页: index.md
+  - 项目: 
+    - LED-Bug: projects/led-bug.md
+    - LED-Bug 2: projects/led-bug-2.md
+  - 文档:
+    - 入门: getting-started.md
+    - 安装: installation.md
+  - 关于: about.md
