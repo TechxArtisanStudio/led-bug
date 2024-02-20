@@ -1,0 +1,20 @@
+:root {
+    --md-primary-fg-color:        #191931;
+    --md-primary-fg-color--light: #57577A;
+    --md-primary-fg-color--dark:  #0D0D12;
+  }
+
+.mdx-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .mdx-banner__image {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 2154px; /* Maximum width of the image */
+    max-height: 850px; /* Maximum height of the image */
+  }

@@ -2,25 +2,11 @@
 {% block tabs %}
   {{ super() }}
   <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
-        </div>
-        <div class="mdx-hero__content">
-          <h1>LED-Bugs</h1>
-          <p>Light up your LED</p>
-          <a href="{{ 'getting-started/' | url }}" title="Buy LED-Bugs" class="md-button md-button--primary">
-            Get Started
-          </a>
-          <a href="{{ 'https://www.crowdsupply.com/hackergadgets/pi-cast' | url }}" title="Buy LED-Bugs right now" class="md-button">
-            Buy LED-Bugs
-          </a>
-        </div>
-      </div>
-    </div>
+
+  <section class="mdx-banner">
+    <img src="images/banner.png" alt="Banner" class="mdx-banner__image">
   </section>
+
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}

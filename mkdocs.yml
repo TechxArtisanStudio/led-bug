@@ -18,7 +18,7 @@ theme:
    - content.code.annotation
    - content.code.copy
   palette:
-    primary: deep orange
+    primary: custom
 nav:
   - Home: index.md
   - About: about.md
