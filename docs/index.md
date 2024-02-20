@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: LED-Bugs
+title: LED-Bug
 social:
   cards_layout_options:
     title: Light up your LED
 ---
 
-Welcome to LED-Bugs.
+Welcome to LED-Bug.

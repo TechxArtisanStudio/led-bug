@@ -1,5 +1,5 @@
-site_name: LED-Bugs Docs
-site_description: LED-Bugs control your LED lights
+site_name: LED-Bug Docs
+site_description: LED-Bug control your LED lights
 theme:
   name: material
   custom_dir: docs/overrides
@@ -36,8 +36,6 @@ nav:
 extra:
   generator: false
   social:
-    # - icon: material/web
-    #   link: https://openterface.com/
     - icon: fontawesome/brands/github-alt
       link: https://github.com/youyoubilly
     - icon: fontawesome/brands/x-twitter
@@ -65,7 +63,7 @@ extra:
     #     name: Google Analytics
     #     checked: false
 
-copyright: Copyright &copy; 2023 MiniKVM Openterface
+copyright: Copyright &copy; 2023 LED-Bug
 
 markdown_extensions:
   # Enables admonitions
@@ -80,4 +78,5 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
+  - glightbox
   - search
