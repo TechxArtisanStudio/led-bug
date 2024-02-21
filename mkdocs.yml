@@ -53,12 +53,12 @@ extra:
     - icon: fontawesome/brands/linkedin-in
       link: https://www.linkedin.com/company/techxartisan/
   alternate:
-    # - name: English
-    #   link: /
-    #   lang: en
     - name: 中文
       link: /
       lang: zh
+    - name: English
+      link: /
+      lang: en
   consent:
     description: >- 
       <br><strong>Cookie Consent</strong><br>
