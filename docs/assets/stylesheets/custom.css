@@ -80,12 +80,31 @@ body {
   align-items: center;
   overflow: hidden;
 }
-  
+
 .mdx-banner__image {
   width: 100%;
   height: auto;
   max-width: 2154px;
   max-height: 850px;
+}
+  
+.product-close-up .product-image .iframe-container {
+  position: relative;
+  width: 100%; /* Full width of the container */
+  padding-top: 56.25%; /* Aspect ratio of 16:9 (9 / 16 = 0.5625) */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.product-close-up .product-image .iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Full height of the container */
+  max-width: 960px; /* Optional: Limits the maximum width of the video */
+  margin: auto; /* Helps in centering */
 }
 
 .product-close-up {
@@ -195,6 +214,10 @@ body {
 }
 
 @media screen and (min-width:60em) {
+  .product-close-up .product-description p {
+    padding-left: 2rem;
+  }
+
   .mdx-hero {
       align-items: stretch;
       display: flex;
