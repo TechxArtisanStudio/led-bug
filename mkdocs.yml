@@ -108,18 +108,18 @@ plugins:
           site_name: "LED-Bug docs"
           nav_translations:
             主页: Home
-            项目: Projects
-            文档: Docs
+            # 项目: Projects
+            灯光控制器: LED Controller
             关于: About
   - git-revision-date-localized:
       locale: zh
 
 nav:
   - 主页: index.md
-  - 项目: 
-    - LED-Bug: projects/led-bug.md
-    - LED-Bug 2: projects/led-bug-2.md
-  - 文档:
-    - 入门: getting-started.md
-    - 安装: installation.md
+  # - 项目: 
+  #   - LED-Bug: projects/led-bug.md
+  #   - LED-Bug 2: projects/led-bug-2.md
+  - 灯光控制器:
+    - LED-Bug SR: products/led-bug_sr.md
+    - LED-Bug Mini: products/led-bug_mini.md
   - 关于: about.md

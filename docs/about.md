@@ -1,24 +1,18 @@
-# Welcome to MkDocs
+# 联系我们
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+我们很高兴您有兴趣与我们联系。 无论您有疑问、反馈还是只是想打个招呼，都可以通过以下几种方式与我们联系：
 
-## Commands
+## 在社交媒体上关注我们
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+在社交媒体上关注我们
 
-## Project layout
+- :fontawesome-brands-bilibili: [订阅我们B站视频](https://space.bilibili.com/481266401)
+- :fontawesome-brands-github-alt: [TechxArtisan on GitHub](https://github.com/TechxArtisan)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 访问我们的网站
 
-???+ note
+有关我们和我们工作的更多信息，请访问我们的网站：
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-    :+1:
+- :fontawesome-solid-globe: [阵匠科创工作室TechxArtisan官网](https://techxartisan.com/)
+
+我们期待与您联系！
