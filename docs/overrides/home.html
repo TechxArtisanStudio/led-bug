@@ -1,6 +1,8 @@
 {% extends "main.html" %}
+
 {% block tabs %}
   {{ super() }}
+
   <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
 
   <section class="mdx-container">
@@ -33,7 +35,6 @@
         <div class="product-image">
           <img src="images/product/close-up.png" alt="Product Close-up">
         </div>
-
         <div class="product-description">
           <p> LED-BUG SR是一款灯光控制器，使用ESP32主控，支持多种电压RGB灯带，内置WLED固件，可实现音乐律动和DMX512控制。板上集成电平转换、数字麦克风和MAX485芯片，预留GPIO和电源输出，适合连接传感器和执行器，支持Arduino IDE和Platform IO开发。
           </p>
@@ -86,7 +87,7 @@
           <p>主控采用ESP32，支持Arduino，TouchDesigner，Platform IO等开发环境。</p>
         </div>
       </div>
-      <a href="{{ 'product-information/' | url }}" title="阅读更多" class="md-button md-button--primary read-more-btn">
+      <a href="{{ 'product-information/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
         阅读更多
       </a>
     </div>
