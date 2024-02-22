@@ -3,8 +3,6 @@ site_name: LED-Bug | 创意灯光控制
 site_url: https://led-bugs.com/
 site_author: Billy Wang
 site_description: LED-Bug control your LED lights
-
-# Copyright
 copyright: >-
   Copyright &copy; All rights reserved. 2023 <a href="https://led-bugs.com/">LED-Bug</a>, Guangzhou Billio Tech. Co., Ltd. <br>
   <a href="">Home</a> |
@@ -24,9 +22,10 @@ theme:
    - navigation.tabs
    - navigation.sections
    - navigation.top
-   - navigation.footer
+  #  - navigation.footer
    - navigation.indexes
    - navigation.sidebar
+   - navigation.tracking
    - toc.integrate
    - search.suggest
    - search.highlight
@@ -39,6 +38,9 @@ theme:
 
 extra:
   generator: false
+  # analytics:
+  #   provider: google
+  #   property: G-1BJ0XH0RSM
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/TechxArtisan
@@ -57,7 +59,7 @@ extra:
       link: /
       lang: zh
     - name: English
-      link: /
+      link: /en
       lang: en
   consent:
     description: >- 
@@ -66,10 +68,6 @@ extra:
       By consenting, you help us improve our website. Thanks!<br>
       <br><strong>Cookie 授权说明</strong><br>
       我们使用Cookies以提升您的网页浏览体验，分析有效性和需求。您的同意将帮助我们改善网站。谢谢！
-    # cookies:
-    #   analytics:
-    #     name: Google Analytics
-    #     checked: false
 
 markdown_extensions:
   # Enables admonitions
@@ -81,6 +79,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.magiclink
   # Enables emoji shortcodes like :+1: or :sunglasses:
   - attr_list
   - md_in_html
@@ -91,6 +90,29 @@ markdown_extensions:
 plugins:
   - glightbox
   - search
+  - awesome-pages
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - build: true
+          default: true
+          locale: zh
+          name: 简体中文
+        - build: true
+          default: false
+          locale: en
+          name: English
+          site_name: "LED-Bug docs"
+          nav_translations:
+            主页: Home
+            项目: Projects
+            文档: Docs
+            关于: About
+  - git-revision-date-localized:
+      locale: zh
 
 nav:
   - 主页: index.md
