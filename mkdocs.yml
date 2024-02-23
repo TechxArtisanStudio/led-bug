@@ -38,9 +38,9 @@ theme:
 
 extra:
   generator: false
-  # analytics:
-  #   provider: google
-  #   property: G-1BJ0XH0RSM
+  analytics:
+    provider: google
+    property: G-TMRKP4D1K2
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/TechxArtisan
