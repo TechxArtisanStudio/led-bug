@@ -1,0 +1,139 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <div class="logo-container">
+            <img src="assets/logo.png" alt="Openterface Logo" width="138" draggable="false">
+            <img src="images/logo-c-eng-white.svg" alt="Openterface Logo-C" draggable="false">
+          </div>
+          <p>We play with LED creative lighting art! Committed to providing interesting introductory courses and creative exchange communities for technology art enthusiasts and tech hobbyists!</p>
+          <!-- <a href="{{ 'quick-start/' | url }}" title="Get-Started" class="md-button md-button--primary">
+            Discover More
+          </a> -->
+          <a href="{{ 'en/products/led-bug_sr' | url }}" title="Join Waitlist" class="md-button">
+            LED Control Kit
+          </a>          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-close-up" id="product-close-up">
+    <div class="container">
+      
+      <div class="product-close-up-content">
+
+        <div class="product-image">
+          <img src="images/product/close-up.png" alt="Product Close-up">
+        </div>
+
+        <div class="product-description">
+          <p>
+          The LED-BUG SR is a lighting controller that uses an ESP32 as its main controller. It supports various voltage RGB light strips and is equipped with built-in WLED firmware, which enables music rhythm and DMX512 control. The board integrates level conversion, a digital microphone, and a MAX485 chip. It also provides reserved GPIO and power output, suitable for connecting sensors and actuators. It supports development with Arduino IDE and Platform IO.
+          </p>
+        </div>
+
+      </div>
+  
+      <div class="product-close-up-content reverse-layout">
+
+        <div class="product-image">
+          <img src="images/product/DSC00147.jpg" alt="Product Close-up">
+          <!-- <div class="iframe-container">
+            <iframe src="//player.bilibili.com/player.html?aid=813801134&bvid=BV1aG4y1i7eT&cid=784678909&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+          </div> -->
+        </div>
+
+        <div class="product-description">
+          <p>
+            Easily achieve music rhythm and colorful lighting effects, supporting a wide range of light strips and DMX512 devices, compatible with advanced ESP32 development. Unleash your creativity and unlock endless possibilities in lighting art!
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="product-features" id="product-features">
+    <div class="container">
+      <h2>Product Features</h2>
+      <div class="features-list">
+        <div class="feature">
+          <h3>Plug and Play</h3>
+          <p>No software installation or configuration on the target computer needed, fast to use.</p>
+        </div>
+        <div class="feature">
+          <h3>Multi-Voltage Compatibility</h3>
+          <p>Supports 5V, 12V, 24V programmable light strips, adaptable to various power supplies.</p>
+        </div>
+        <div class="feature">
+          <h3>Music Rhythm Support</h3>
+          <p>On-board digital microphone, supports sound collection, achieving music rhythm effects.</p>
+        </div>
+        <div class="feature">
+          <h3>Flexible Light Strip Control</h3>
+          <p>Supports various programmable light strips such as WS281X, SK6812, TM1814, with dual light strip signal outputs.</p>
+        </div>
+        <div class="feature">
+          <h3>Strong Extensibility</h3>
+          <p>On-board MAX485 chip, supports DMX512 protocol, suitable for various lighting projects.</p>
+        </div>
+        <div class="feature">
+          <h3>Custom Programming</h3>
+          <p>Main control uses ESP32, supports development environments like Arduino, TouchDesigner, Platform IO, etc.</p>
+        </div>
+      </div>
+      <a href="{{ 'en/products/led-bug_sr' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
+    </div>
+  </section>
+  
+  <!-- <section class="dialogue-section" id="dialogues-section">
+    <div class="container">
+      <div class="dialogue-bubble" id="buy-bubble">
+        <p>I want to buy!</p>
+      </div>
+      <div class="dialogue-bubble" id="idea-bubble">
+        <p>I want to enroll!</p>
+      </div>
+      <div class="dialogue-bubble" id="advice-bubble">
+        <p>I want to advise!</p>
+      </div>
+    </div>
+    <div class="callout-button-container">
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Fill out a form first ❤️</p>
+        <a href="https://shimo.im/forms/vVAXMOVD0YUEep3m/fill" class="md-button md-button--primary" id="join-waitlist-button">Purchase Intent Form</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Check the schedule 🔍</p>
+        <a href="https://shimo.im/docs/jQRobmaAKMyIl9Fs/" class="md-button md-button--primary" id="join-waitlist-button">Course Schedule/Events</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Let's add on WeChat 💬</p>
+        <a href="https://shimo.im/docs/m4kMM9LZ9Eip0PkD/" class="md-button md-button--primary" id="join-waitlist-button">Let's Chat</a>
+      </div>
+    </div>
+  </section>   -->
+  
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}

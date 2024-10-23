@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://led-bugs.com/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/about/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/about/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/products/led-bug_mini/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/products/led-bug_mini/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/products/led-bug_mini/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/products/led-bug_sr/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/products/led-bug_sr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/products/led-bug_sr/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/en/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/en/about/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/about/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/about/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/en/products/led-bug_mini/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/products/led-bug_mini/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/products/led-bug_mini/"/>
+    </url>
+    <url>
+        <loc>https://led-bugs.com/en/products/led-bug_sr/</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://led-bugs.com/en/products/led-bug_sr/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://led-bugs.com/products/led-bug_sr/"/>
+    </url>
+</urlset>
