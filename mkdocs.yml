@@ -3,11 +3,14 @@ site_name: LED-Bug | 创意灯光控制
 site_url: https://led-bugs.com/
 site_author: Billy Wang
 site_description: LED-Bug control your LED lights
+
+# Copyright
 copyright: >-
-  Copyright &copy; All rights reserved. 2023 <a href="https://led-bugs.com/">LED-Bug</a>, Guangzhou Billio Tech. Co., Ltd. <br>
-  <a href="">Home</a> |
-  <a href="#__consent">Cookie Settings</a> | 
-  <a href="/contact">Contact Us</a>
+  版权所有 &copy 2024 <a href="">TechxArtisan 阵匠</a><br>
+  广州比利奥科技有限公司 | <a href="https://beian.miit.gov.cn">粤ICP备2022069650号-2</a><br>
+  <a href="">首页</a> |
+  <a href="#__consent">Cookie设置</a> | 
+  <a href="mailto:info@techxartisan.com">联系我们</a>
 
 theme:
   name: material
